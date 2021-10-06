@@ -1,0 +1,10 @@
+@font-face {
+   font-family: 'thick';
+   font-display: swap;
+   src: url('thick/font.ttf');
+}
+@font-face {
+   font-family: 'thin';
+   font-display: swap;
+   src: url('thin/font.ttf');
+}
