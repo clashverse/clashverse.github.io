@@ -56,7 +56,13 @@
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
-  
+ 
+<script>
+let testDiv = document.getElementById('test')
+fetch('https://getpantry.cloud/apiv1/pantry/d23b57e1-93b9-4863-81cc-8d4b2c0a0032/basket/botstats')
+.then(res=>res.json())
+.then(q=>{testDiv.innerHTML = `${q.users} Users`})
+</script> 
   
   
 </head>
@@ -117,7 +123,7 @@
                     <div class="card-box align-center">
                         <span class="mbr-iconfont mobi-mbri-users mobi-mbri"></span>
                         <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
-                            <strong>80000+ Users</strong></h4>
+                            <strong><div id="test"></div></strong></h4>
                     </div>
                 </div>
             </div>
