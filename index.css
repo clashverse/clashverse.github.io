@@ -246,7 +246,7 @@ footer {
     padding: 2.5vmax 0;
 }
 
-@media (max-width:600px) {
+@media (orientation:portrait) {
     #top-section {
         padding: 5vmax 0;
         height: 100%;
