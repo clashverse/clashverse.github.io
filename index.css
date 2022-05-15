@@ -1,21 +1,5 @@
 @font-face {
     font-family: supercell;
-    src: local("Arial");
-    font-weight: normal;
-    font-display: swap;
-    size-adjust: 175%;
-}
-
-@font-face {
-    font-family: supercell;
-    src: local("Arial");
-    font-weight: bold;
-    font-display: swap;
-    size-adjust: 300%;
-}
-
-@font-face {
-    font-family: supercell;
     src: url("/assets/thick.ttf");
     font-weight: bold;
     size-adjust: 300%;
